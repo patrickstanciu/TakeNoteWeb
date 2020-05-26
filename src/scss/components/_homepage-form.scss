@@ -1,0 +1,204 @@
+.homepage-form {
+    display: block;
+    padding: 5rem 0rem;
+    margin-top: -200px;
+    background-color: $very-light-blue;
+    overflow: hidden;
+    min-height: 500px;
+    position: relative;
+    padding-top: 300px;
+    z-index: 1;
+
+    @media (max-width: 991px) {
+        padding-top: 200px;
+        margin-top: -140px;
+    }
+
+    @media (max-width: 575px) {
+        padding-bottom: 2rem;
+    }
+
+    .container {
+        position: relative;
+        z-index: 3;
+    }
+
+    &__title {
+        font-size: 2.2rem;
+        font-weight: 600;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+    }
+
+    &__copy {
+        font-size: 1.1rem;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        text-align: center;
+
+        max-width: 630px;
+        margin: 0 auto;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+
+        @media (max-width: 991px) {
+            margin-bottom: 0.2rem;
+            margin-top: 0.2rem;
+            max-width: 100%;
+        }
+    }
+
+    &__form {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+
+        @media (max-width: 991px) {
+            margin-top: 1rem;
+        }
+
+        input {
+            height: 48px;
+        }
+        .cta {
+            margin-top: 1rem;
+            display: block;
+            width: 100%;
+        }
+        .hasErr {
+            border: 1px solid red;
+        }
+        .homepage-form__error {
+            font-size: 0.9rem;
+            min-height: 1.2rem;
+            margin-top: 0.2rem;
+            margin-bottom: 0.2rem;
+            color: red;
+
+            @media (max-width: 991px) {
+                min-height: 1rem;
+                margin: 0 auto;
+            }
+        }
+    }
+    .morph-left,
+    .morph-right {
+        position: absolute;
+        width: 1400px;
+        height: 770px;
+        z-index: 1;
+    }
+
+    .morph-left {
+        left: -700px;
+        top: -300px;
+    }
+
+    .morph-right {
+        right: -700px;
+        bottom: -400px;
+    }
+}
+
+.homepage-categories {
+    position: relative;
+    padding-top: 100px;
+    z-index: 3;
+
+    @media (max-width: 991px) {
+        padding-top: 50px;
+    }
+
+    .categories-holder {
+        background-color: $blue;
+        color: #fff;
+        text-align: center;
+        position: relative;
+        padding-top: 5rem;
+
+        @media (max-width: 991px) {
+            padding-top: 3rem;
+        }
+
+        h3 {
+            font-size: 2.2rem;
+            @media (max-width: 991px) {
+                max-width: 300px;
+                margin: 0 auto;
+                margin-bottom: 2rem;
+                font-size: 1.8rem;
+            }
+        }
+
+        h5 {
+            opacity: 0.8;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            max-width: 890px;
+            margin: 0 auto;
+            display: block;
+            font-size: 1.2rem;
+            line-height: 170%;
+            strong {
+                color: $orange;
+            }
+            &.lowerdown {
+                position: relative;
+                z-index: 2;
+                margin-bottom: -100px;
+                @media (max-width: 1200px) {
+                    margin-bottom: 0px;
+                }
+                @media (max-width: 991px) {
+                    margin-bottom: 30px;
+                }
+            }
+        }
+
+        .categories {
+            margin: 5rem 0rem 2rem 0rem;
+            display: flex;
+            justify-content: space-around;
+            flex-direction: row;
+            flex-wrap: wrap;
+
+            .category {
+                width: 250px;
+                height: 250px;
+                @include bradius(10px);
+                border: solid 1px #dfdfdf;
+                display: block;
+                margin-bottom: 3rem;
+            }
+
+            .category__inner {
+                padding: 3rem 0rem;
+                img {
+                    width: auto;
+                    margin: 0 auto;
+                    display: block;
+                    max-height: 120px;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+
+    .morph-top {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        max-width: 1600px;
+        margin-top: -1px;
+        position: relative;
+        z-index: -1;
+    }
+}

@@ -1,0 +1,26 @@
+.modal {
+  .embed-responsive {
+    background-image: url("/media/hero-video-placeholder.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .close {
+    position: absolute;
+    right: 0px;
+    top: -55px;
+    font-size: 4rem;
+    z-index: 99;
+    color: #fff;
+    appearance: none;
+    background-color: transparent;
+
+    span {
+      width: 30px;
+      height: 30px;
+      display: block;
+      line-height: 1;
+    }
+  }
+}

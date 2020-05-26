@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1494px" height="446px" viewBox="0 0 1494 446" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>16D12E7A-F66F-435E-AA1B-80E0BDDE43B3</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#3A96FD" offset="0%"></stop>
+            <stop stop-color="#2E5BFF" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="102.894441%" y1="50%" x2="84.1258904%" y2="49.5133869%" id="linearGradient-2">
+            <stop stop-color="#F3F9FF" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#F3F9FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Public-Homepage---UI-[Desktop]" transform="translate(54.000000, -1813.000000)">
+            <g id="chart-with-blur" transform="translate(-54.000000, 1813.000000)">
+                <g id="figure" opacity="0.138067336" transform="translate(772.913560, 174.625609) rotate(1.000000) translate(-772.913560, -174.625609) translate(54.913560, 13.125609)">
+                    <polyline id="Path-5" fill-opacity="0.100000001" fill="url(#linearGradient-1)" points="4.28859057 220.746789 86.9291006 175.772353 172.370984 202.757014 257.112524 122.494944 339.753034 22.8592698 425.194917 45.0005307 507.135084 113.500057 592.576967 156.398749 676.618164 110.732399 757.857987 93.4345389 844.000214 12.4805538 928.041411 75.4447644 1013.48329 175.772353 1096.1238 207.600415 1182.26603 116.613671 1263.9606 26.3188418 1346.84671 45.0005307 1432.28859 54.6873323 1432.28859 322.480554 4.28859057 322.480554"></polyline>
+                    <polyline id="Path-5" stroke="#073EDA" stroke-width="2" points="3.38979164 220.488397 86.0303017 175.355507 171.472185 202.435241 256.213725 121.890391 338.854235 21.9036799 424.296118 44.122949 506.236285 112.863813 591.678168 155.913647 675.719365 110.086404 756.959188 92.7276001 843.101415 11.4883975 927.142612 74.674444 1012.58449 175.355507 1095.225 207.295706 1181.36723 115.988397 1263.06181 25.3754407 1345.94791 44.122949 1431.38979 53.8438792"></polyline>
+                    <circle id="Oval" stroke="#3794FC" stroke-width="2" fill="#FFFFFF" cx="4.10431099" cy="218.952856" r="3"></circle>
+                    <circle id="Oval" stroke="#3794FC" stroke-width="2" fill="#FFFFFF" cx="86.3586686" cy="175.510703" r="3"></circle>
+                    <circle id="Oval" stroke="#3794FC" stroke-width="2" fill="#FFFFFF" cx="171.816938" cy="201.023136" r="3"></circle>
+                    <circle id="Oval" stroke="#3794FC" stroke-width="2" fill="#FFFFFF" cx="339.71927" cy="22.0655805" r="3"></circle>
+                    <circle id="Oval" stroke="#3794FC" stroke-width="2" fill="#FFFFFF" cx="254.460309" cy="122.568862" r="3"></circle>
+                    <circle id="Oval" stroke="#3794FC" stroke-width="2" fill="#FFFFFF" cx="424.090429" cy="42.5962276" r="3"></circle>
+                    <circle id="Oval" stroke="#3794FC" stroke-width="2" fill="#FFFFFF" cx="506.317214" cy="112.171769" r="3"></circle>
+                    <circle id="Oval" stroke="#3794FC" stroke-width="2" fill="#FFFFFF" cx="593.072021" cy="154.664161" r="3"></circle>
+                    <circle id="Oval" stroke="#3794FC" stroke-width="2" fill="#FFFFFF" cx="676.291322" cy="109.20486" r="3"></circle>
+                    <circle id="Oval" stroke="#3794FC" stroke-width="2" fill="#FFFFFF" cx="756.982294" cy="90.7938042" r="3"></circle>
+                    <circle id="Oval" stroke="#3794FC" stroke-width="2" fill="#FFFFFF" cx="844.624904" cy="12.2522675" r="11"></circle>
+                    <circle id="Oval" stroke="#3794FC" stroke-width="2" fill="#FFFFFF" cx="928.729216" cy="74.7939703" r="3"></circle>
+                    <circle id="Oval" stroke="#3794FC" stroke-width="2" fill="#FFFFFF" cx="1011.44467" cy="172.365247" r="3"></circle>
+                    <circle id="Oval" stroke="#3794FC" stroke-width="2" fill="#FFFFFF" cx="1095.02541" cy="204.911519" r="3"></circle>
+                    <circle id="Oval" stroke="#3794FC" stroke-width="2" fill="#FFFFFF" cx="1182.45859" cy="114.37181" r="3"></circle>
+                    <circle id="Oval" stroke="#3794FC" stroke-width="2" fill="#FFFFFF" cx="1264.90998" cy="24.9192107" r="3"></circle>
+                    <circle id="Oval" stroke="#3794FC" stroke-width="2" fill="#FFFFFF" cx="1346.22924" cy="42.502672" r="3"></circle>
+                    <circle id="Oval" stroke="#3794FC" stroke-width="2" fill="#FFFFFF" cx="1431.44318" cy="54.0172375" r="3"></circle>
+                </g>
+                <rect id="Rectangle" fill="url(#linearGradient-2)" transform="translate(426.500000, 227.500000) rotate(-360.000000) translate(-426.500000, -227.500000) " x="0" y="9" width="853" height="437"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,62 @@
+// Bootstrap variables override
+$body-bg: #ffffff;
+$body-color: #333333;
+$font-family-sans-serif: 'Montserrat', Helvetica, Arial, sans-serif !default;
+
+// Custom colors
+$dark-slate-blue: #0b337e;
+$very-light-blue: #f3f9ff;
+$medium-green: #39b54a;
+$bright-blue: #374c75;
+
+// Colors
+$blue: #0b337e !default;
+$indigo: #6610f2 !default;
+$purple: #6f42c1 !default;
+$pink: #e83e8c !default;
+$red: #dc3545 !default;
+$orange: #fab42c !default;
+$yellow: #fab42c !default;
+$green: #39b54a !default;
+$teal: #20c997 !default;
+$cyan: #f3f9ff !default;
+
+// Brand theme
+$brand-primary: darken($dark-slate-blue, 6.5%) !default;
+$brand-success: $orange !default;
+$brand-info: #f3f9ff !default;
+$brand-warning: #f0ad4e !default;
+$brand-danger: #d9534f !default;
+$brand-dark: #1c1819;
+$brand-green: #39b54a;
+$brand-yellow: #fab42c;
+
+// Bootsrap colors
+$blue: $dark-slate-blue !default;
+$green: $medium-green !default;
+
+// Max width
+$container-max-widths: (
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1244px,
+) !default;
+
+// Buttons Border radius
+$btn-border-radius: 10px;
+$btn-border-radius-lg: 10px;
+$btn-border-radius-sm: 10px;
+
+// Links
+$link-color: $brand-primary !default;
+//** Link hover color set via `darken()` function.
+$link-hover-color: darken($link-color, 15%) !default;
+//** Link hover decoration.
+$link-hover-decoration: none !default;
+
+.color {
+    &--orange {
+        color: $orange;
+    }
+}

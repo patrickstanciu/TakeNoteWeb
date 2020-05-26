@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1870px" height="1836px" viewBox="0 0 1870 1836" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>7EFC89F3-3212-4D6B-834C-5A7AB38CA890</title>
+    <defs>
+        <rect id="path-1" x="163.900386" y="377.874339" width="1542" height="1080" rx="310"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Public-Homepage---UI-[Desktop]" transform="translate(351.000000, 988.000000)">
+            <g id="main-shape" transform="translate(-351.000000, -988.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Rectangle" fill="#0B337E" transform="translate(934.900386, 917.874339) rotate(-42.000000) translate(-934.900386, -917.874339) " xlink:href="#path-1"></use>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,66 @@
+@mixin slowmo($ss: 0.2s linear) {
+  -webkit-transition: all $ss;
+  -moz-transition: all $ss;
+  -o-transition: all $ss;
+  -ms-transition: all $ss;
+  -khtml-transition: all $ss;
+  transition: all $ss;
+}
+@mixin transform($trans) {
+  -webkit-transform: $trans;
+  -moz-transform: $trans;
+  -o-transform: $trans;
+  -ms-transform: $trans;
+  -khtml-transform: $trans;
+  transform: $trans;
+}
+@mixin opacity($h: 1) {
+  opacity: $h;
+  -moz-opacity: $h;
+  -webkit-opacity: $h;
+  -ms-opacity: $h;
+  -o-opacity: $h;
+  -khtml-opacity: $h;
+}
+@mixin rotate($deg: 45deg) {
+  -webkit-transform: rotate($deg);
+  -moz-transform: rotate($deg);
+  -ms-transform: rotate($deg);
+  -o-transform: rotate($deg);
+  -khtml-transform: rotate($deg);
+  transform: rotate($deg);
+}
+@mixin box-shadow($box) {
+  box-shadow: $box;
+  -webkit-box-shadow: $box;
+  -moz-box-shadow: $box;
+  -ms-box-shadow: $box;
+  -o-box-shadow: $box;
+  -khtml-box-shadow: $box;
+}
+@mixin text-shadow($text: 0px 0px 20px #000) {
+  text-shadow: $text;
+  -webkit-text-shadow: $text;
+  -moz-text-shadow: $text;
+  -ms-text-shadow: $text;
+  -o-text-shadow: $text;
+  -khtml-text-shadow: $text;
+}
+@mixin bradius($px: 10px) {
+  border-radius: $px;
+  -moz-border-radius: $px;
+  -webkit-border-radius: $px;
+  -ms-border-radius: $px;
+  -o-border-radius: $px;
+  -khtml-border-radius: $px;
+}
+
+@mixin noselect() {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}

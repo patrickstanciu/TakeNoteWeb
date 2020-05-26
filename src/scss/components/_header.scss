@@ -1,0 +1,21 @@
+.header {
+  display: block;
+
+  &--static {
+    background-color: $blue;
+    position: relative;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    z-index: 2;
+  }
+
+  .navbar {
+    padding: 1.5rem 0rem 1.5rem 0rem;
+  }
+
+  .logo {
+    width: 175px;
+    height: 37px;
+  }
+}
